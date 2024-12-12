@@ -2,6 +2,7 @@ import requests
 import json
 import msal
 import configparser
+import traceback
 from typing import Optional, Dict, List, Any
 
 class SharePointClient:
@@ -26,88 +27,65 @@ class SharePointClient:
         
     def authenticate(self) -> bool:
         """Authenticate with Microsoft Graph API"""
-        app = msal.ConfidentialClientApplication(
-            self.client_id,
-            authority=self.authority,
-            client_credential=self.client_secret,
-        )
-        
-        # Try to get token from cache first
-        result = app.acquire_token_silent(self.scope, account=None)
-        
-        if not result:
-            print("Getting new token from Azure AD...")
-            result = app.acquire_token_for_client(scopes=self.scope)
+        try:
+            app = msal.ConfidentialClientApplication(
+                self.client_id,
+                authority=self.authority,
+                client_credential=self.client_secret,
+            )
             
-        if "access_token" in result:
-            self.access_token = result['access_token']
-            self.http_headers = {
-                'Authorization': f'Bearer {self.access_token}',
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            }
-            return True
-        else:
-            print(f"Error: {result.get('error')}")
-            print(f"Description: {result.get('error_description')}")
-            print(f"Correlation ID: {result.get('correlation_id')}")
+            # Try to get token from cache first
+            result = app.acquire_token_silent(self.scope, account=None)
+            
+            if not result:
+                print("Getting new token from Azure AD...")
+                result = app.acquire_token_for_client(scopes=self.scope)
+                
+            if "access_token" in result:
+                self.access_token = result['access_token']
+                self.http_headers = {
+                    'Authorization': f'Bearer {self.access_token}',
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                }
+                return True
+            else:
+                print(f"Error: {result.get('error')}")
+                print(f"Description: {result.get('error_description')}")
+                print(f"Correlation ID: {result.get('correlation_id')}")
+                return False
+        except Exception as e:
+            print(f"Authentication error: {str(e)}")
+            print(f"Detailed error: {traceback.format_exc()}")
             return False
     
-    def get_site_info(self, site_path: str = 'root') -> Dict:
+    def get_site_info(self, site_path: str) -> Dict:
         """Get information about a SharePoint site"""
-        graph_url = f'https://graph.microsoft.com/v1.0/sites/{site_path}'
-        response = requests.get(graph_url, headers=self.http_headers)
-        return response.json()
+        try:
+            graph_url = f'https://graph.microsoft.com/v1.0/sites/{site_path}'
+            response = requests.get(graph_url, headers=self.http_headers)
+            response_json = response.json()
+            
+            if response.status_code != 200:
+                print(f"Error getting site info. Status code: {response.status_code}")
+                print(f"Error details: {response_json}")
+            
+            return response_json
+        except Exception as e:
+            print(f"Error in get_site_info: {str(e)}")
+            print(f"Detailed error: {traceback.format_exc()}")
+            return {"error": str(e)}
     
     def get_lists(self, site_id: str) -> List[Dict]:
         """Get all lists in a SharePoint site"""
-        graph_url = f'https://graph.microsoft.com/v1.0/sites/{site_id}/lists'
-        response = requests.get(graph_url, headers=self.http_headers)
-        return response.json().get('value', [])
+        try:
+            graph_url = f'https://graph.microsoft.com/v1.0/sites/{site_id}/lists'
+            response = requests.get(graph_url, headers=self.http_headers)
+            return response.json().get('value', [])
+        except Exception as e:
+            print(f"Error in get_lists: {str(e)}")
+            return []
     
-    def get_list_items(self, site_id: str, list_id: str) -> List[Dict]:
-        """Get items from a specific list"""
-        graph_url = f'https://graph.microsoft.com/v1.0/sites/{site_id}/lists/{list_id}/items'
-        response = requests.get(graph_url, headers=self.http_headers)
-        return response.json().get('value', [])
-    
-    def create_list_item(self, site_id: str, list_id: str, fields: Dict) -> Dict:
-        """Create a new item in a list"""
-        graph_url = f'https://graph.microsoft.com/v1.0/sites/{site_id}/lists/{list_id}/items'
-        body = {
-            "fields": fields
-        }
-        response = requests.post(graph_url, headers=self.http_headers, json=body)
-        return response.json()
-    
-    def update_list_item(self, site_id: str, list_id: str, item_id: str, fields: Dict) -> Dict:
-        """Update an existing list item"""
-        graph_url = f'https://graph.microsoft.com/v1.0/sites/{site_id}/lists/{list_id}/items/{item_id}/fields'
-        response = requests.patch(graph_url, headers=self.http_headers, json=fields)
-        return response.json()
-    
-    def delete_list_item(self, site_id: str, list_id: str, item_id: str) -> bool:
-        """Delete a list item"""
-        graph_url = f'https://graph.microsoft.com/v1.0/sites/{site_id}/lists/{list_id}/items/{item_id}'
-        response = requests.delete(graph_url, headers=self.http_headers)
-        return response.status_code == 204
-    
-    def get_list_by_name(self, site_id: str, list_name: str) -> Optional[Dict]:
-        """Get a list by its display name"""
-        lists = self.get_lists(site_id)
-        for list_info in lists:
-            if list_info['displayName'].lower() == list_name.lower():
-                return list_info
-        return None
-    
-    def get_site_by_name(self, site_name: str) -> Dict:
-        """Get a site by its name"""
-        graph_url = f'https://graph.microsoft.com/v1.0/sites/{site_name}'
-        response = requests.get(graph_url, headers=self.http_headers)
-        return response.json()
-    
-    # Add this new method to your SharePointClient class:
-
     def upload_file(self, site_id: str, file_path: str, target_folder: str = "Shared Documents") -> Dict:
         """
         Upload a file to SharePoint document library
@@ -120,33 +98,39 @@ class SharePointClient:
         Returns:
             Dict: Response from the API containing the uploaded file information
         """
-        # Get the file name from the path
-        file_name = file_path.split('/')[-1] if '/' in file_path else file_path.split('\\')[-1]
-        
-        # Read the file content
-        with open(file_path, 'rb') as file_content:
-            content = file_content.read()
-        
-        # Construct the upload URL
-        upload_url = f"https://graph.microsoft.com/v1.0/sites/{site_id}/drive/root:/{target_folder}/{file_name}:/content"
-        
-        # Upload the file
-        response = requests.put(
-            upload_url,
-            headers={
-                'Authorization': f'Bearer {self.access_token}',
-                'Content-Type': 'application/octet-stream'
-            },
-            data=content
-        )
-        
-        return response.json()
-
-    def get_subsites(self, site_id: str) -> List[Dict]:
-        """Get all subsites of a site"""
-        graph_url = f'https://graph.microsoft.com/v1.0/sites/{site_id}/sites'
-        response = requests.get(graph_url, headers=self.http_headers)
-        return response.json().get('value', [])
+        try:
+            # Get the file name from the path
+            file_name = file_path.split('/')[-1] if '/' in file_path else file_path.split('\\')[-1]
+            
+            # Read the file content
+            with open(file_path, 'rb') as file_content:
+                content = file_content.read()
+            
+            # Construct the upload URL
+            upload_url = f"https://graph.microsoft.com/v1.0/sites/{site_id}/drive/root:/{target_folder}/{file_name}:/content"
+            
+            # Upload the file
+            response = requests.put(
+                upload_url,
+                headers={
+                    'Authorization': f'Bearer {self.access_token}',
+                    'Content-Type': 'application/octet-stream'
+                },
+                data=content
+            )
+            
+            response_json = response.json()
+            
+            if response.status_code not in [200, 201]:
+                print(f"Error uploading file. Status code: {response.status_code}")
+                print(f"Error details: {response_json}")
+            
+            return response_json
+            
+        except Exception as e:
+            print(f"Error in upload_file: {str(e)}")
+            print(f"Detailed error: {traceback.format_exc()}")
+            return {"error": str(e)}
 
 def main():
     # Initialize the client
@@ -158,44 +142,44 @@ def main():
         return
     
     try:
-        # Get root site information
-        site_info = client.get_site_info()
-        print(f"\nSite URL: {site_info['webUrl']}")
+        # Get site info using the full domain
+        site_path = 'humcodetechnologies143.sharepoint.com:/sites/Sharepoint-Bedrock-Test'
+        print(f"\nGetting site info for: {site_path}")
+        
+        site_info = client.get_site_info(site_path)
+        print("\nSite response:", json.dumps(site_info, indent=2))
+        
+        if 'error' in site_info:
+            print(f"Error getting site: {site_info['error']}")
+            return
+            
         site_id = site_info['id']
+        print(f"\nSite found: {site_info.get('webUrl', 'No URL found')}")
+        print(f"Site ID: {site_id}")
         
-        # Get lists
-        print("\nFetching lists...")
-        lists = client.get_lists(site_id)
-        for list_info in lists:
-            print(f"- {list_info['displayName']}")
+        # Create a test file
+        test_file_path = "test.txt"
+        print(f"\nCreating test file: {test_file_path}")
+        with open(test_file_path, "w") as f:
+            f.write("This is a test file for SharePoint upload")
         
-        if lists:
-            # Work with the first list as an example
-            test_list = lists[0]
-            print(f"\nWorking with list: {test_list['displayName']}")
-            
-            # Create a test item
-            print("\nCreating new item...")
-            new_item = client.create_list_item(site_id, test_list['id'], {
-                "Title": "Test Item",
-                "Description": "Created via API"
-            })
-            print(f"Created item with ID: {new_item.get('id')}")
-            
-            # Get all items
-            print("\nFetching all items...")
-            items = client.get_list_items(site_id, test_list['id'])
-            for item in items:
-                print(f"- {item['fields'].get('Title')}")
-            
-            # Get subsites if any
-            print("\nFetching subsites...")
-            subsites = client.get_subsites(site_id)
-            for subsite in subsites:
-                print(f"- {subsite['displayName']}: {subsite['webUrl']}")
+        # Upload the test file
+        print("\nUploading file...")
+        result = client.upload_file(
+            site_id=site_id,
+            file_path=test_file_path,
+            target_folder="Shared Documents"
+        )
+        
+        if 'error' in result:
+            print(f"Error uploading file: {result['error']}")
+        else:
+            print(f"File uploaded successfully!")
+            print(f"File URL: {result.get('webUrl', 'No URL available')}")
             
     except Exception as e:
-        print(f"An error occurred: {str(e)}")
+        print(f"\nAn error occurred in main: {str(e)}")
+        print("Full error:", traceback.format_exc())
 
 if __name__ == "__main__":
     main()
