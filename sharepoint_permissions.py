@@ -158,7 +158,7 @@ class SharePointPermissionExtractor:
         """
         Extract all permissions across the site hierarchy
         Args:
-            site_path: The SharePoint site path (e.g., 'humcodetechnologies143.sharepoint.com:/sites/Sharepoint-Bedrock-Test')
+            site_path: The SharePoint site path (e.g., 'domain.sharepoint.com:/sites/site-name')
         Returns:
             Dictionary with different types of permissions
         """
@@ -228,23 +228,54 @@ class SharePointPermissionExtractor:
 
         return permissions_db
 
-    def format_for_database(self, permissions_db: Dict[str, List[PermissionEntry]]) -> List[Dict]:
-        """Format permissions for database storage"""
-        formatted_entries = []
+    def save_to_json(self, permissions_db: Dict[str, List[PermissionEntry]], output_file: str = 'sharepoint_permissions.json') -> None:
+        """
+        Save the permissions database to a JSON file
         
-        for category, entries in permissions_db.items():
-            for entry in entries:
-                formatted_entries.append({
-                    'item_id': entry.item_id,
-                    'item_type': entry.item_type,
-                    'item_path': entry.item_path,
-                    'roles': json.dumps(entry.roles),
-                    'inherited': entry.inherited,
-                    'parent_id': entry.parent_id,
-                    'category': category
-                })
+        Args:
+            permissions_db: The permissions database dictionary
+            output_file: Name of the output JSON file
+        """
+        try:
+            # Convert PermissionEntry objects to dictionaries
+            json_data = {}
+            for category, entries in permissions_db.items():
+                json_data[category] = [
+                    {
+                        'item_id': entry.item_id,
+                        'item_type': entry.item_type,
+                        'item_path': entry.item_path,
+                        'roles': entry.roles,
+                        'inherited': entry.inherited,
+                        'parent_id': entry.parent_id
+                    }
+                    for entry in entries
+                ]
+            
+            # Write to JSON file with proper formatting
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(json_data, f, indent=4, ensure_ascii=False)
                 
-        return formatted_entries
+            print(f"\nPermissions successfully saved to {output_file}")
+            
+        except Exception as e:
+            print(f"Error saving to JSON: {str(e)}")
+
+    def load_from_json(self, json_file: str = 'sharepoint_permissions.json') -> Dict:
+        """
+        Load permissions from JSON file
+        
+        Args:
+            json_file: Path to the JSON file
+        Returns:
+            Dictionary containing the permissions data
+        """
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading JSON: {str(e)}")
+            return {}
 
 def main():
     # Initialize the extractor
@@ -262,18 +293,21 @@ def main():
         
         permissions_db = extractor.extract_all_permissions(site_path)
         
-        # Format for database storage
-        db_entries = extractor.format_for_database(permissions_db)
-        print(db_entries)
         # Print summary
         print("\nPermissions extracted successfully!")
-        print(f"Total entries: {len(db_entries)}")
         print("\nBreakdown:")
         for category in permissions_db:
             print(f"{category}: {len(permissions_db[category])} entries")
-            
-        # You can now store db_entries in your database
         
+        # Save to JSON file
+        extractor.save_to_json(permissions_db, 'sharepoint_permissions.json')
+        
+        # Example: Load and verify the saved data
+        loaded_permissions = extractor.load_from_json('sharepoint_permissions.json')
+        print("\nVerified saved data - Entries per category:")
+        for category in loaded_permissions:
+            print(f"{category}: {len(loaded_permissions[category])} entries")
+            
     except Exception as e:
         print(f"\nAn error occurred: {str(e)}")
 

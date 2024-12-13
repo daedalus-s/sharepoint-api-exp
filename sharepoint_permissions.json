@@ -1,0 +1,2589 @@
+{
+    "sites": [
+        {
+            "item_id": "humcodetechnologies143.sharepoint.com,c1dddf4b-3164-4116-85c2-1d1f09520224,f263a3ae-68d4-4553-a8e8-b4b40e529d05",
+            "item_type": "site",
+            "item_path": "/",
+            "roles": [],
+            "inherited": false,
+            "parent_id": null
+        }
+    ],
+    "lists": [
+        {
+            "item_id": "05292f9c-dfdf-46cf-8032-326663ad45f7",
+            "item_type": "list",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/Lists/ListTest",
+            "roles": [],
+            "inherited": true,
+            "parent_id": null
+        },
+        {
+            "item_id": "af5ffed2-600f-41eb-9a86-5df2f31d44d5",
+            "item_type": "list",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte",
+            "roles": [],
+            "inherited": true,
+            "parent_id": null
+        },
+        {
+            "item_id": "6c144e72-aa42-49b5-839a-7268ba1c987f",
+            "item_type": "list",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/Shared%20Documents",
+            "roles": [],
+            "inherited": true,
+            "parent_id": null
+        }
+    ],
+    "documents": [],
+    "folders": [
+        {
+            "item_id": "1",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/Lists/ListTest/1_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "5376351c-7e6a-4038-a2ef-d0f9b82a4030"
+        },
+        {
+            "item_id": "1",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "59268040-6ad7-4e71-9b95-3e4025727457"
+        },
+        {
+            "item_id": "15",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/bdeadf71-2f7a-4a7b-8619-7dbca0f89cda",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "59268040-6ad7-4e71-9b95-3e4025727457"
+        },
+        {
+            "item_id": "2",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/2_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "3",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/3_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "4",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/4_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "5",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/5_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "6",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/6_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "7",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/7_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "8",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/8_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "9",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/9_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "10",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/10_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "11",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/11_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "12",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/12_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "13",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/13_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "14",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/7f456803-c63e-41c9-95ff-2a4dee8b22b0/14_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+        },
+        {
+            "item_id": "16",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/bdeadf71-2f7a-4a7b-8619-7dbca0f89cda/16_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a"
+        },
+        {
+            "item_id": "17",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/bdeadf71-2f7a-4a7b-8619-7dbca0f89cda/17_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a"
+        },
+        {
+            "item_id": "18",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/bdeadf71-2f7a-4a7b-8619-7dbca0f89cda/18_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a"
+        },
+        {
+            "item_id": "19",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/bdeadf71-2f7a-4a7b-8619-7dbca0f89cda/19_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a"
+        },
+        {
+            "item_id": "20",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte/bdeadf71-2f7a-4a7b-8619-7dbca0f89cda/20_.000",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a"
+        },
+        {
+            "item_id": "2",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/Shared%20Documents/Data",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "07930848-f825-437f-b7de-c7d6695e614c"
+        },
+        {
+            "item_id": "4",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/Shared%20Documents/Shared%20Documents",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "07930848-f825-437f-b7de-c7d6695e614c"
+        },
+        {
+            "item_id": "1",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/Shared%20Documents/coverletterNetflix.txt",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "07930848-f825-437f-b7de-c7d6695e614c"
+        },
+        {
+            "item_id": "3",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/Shared%20Documents/Data/kb-end-to-end-acl%20(1).ipynb",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "efa6a973-badf-4512-93b8-8675e709ae8c"
+        },
+        {
+            "item_id": "5",
+            "item_type": "folder",
+            "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/Shared%20Documents/Shared%20Documents/test.txt",
+            "roles": [
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "roles": [
+                        "write"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgTWVtYmVycw",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Members",
+                            "id": "5",
+                            "loginName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Members"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgT3duZXJz",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "id": "3",
+                            "loginName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "roles": [
+                        "read"
+                    ],
+                    "shareId": "U2hhcmVwb2ludC1CZWRyb2NrLVRlc3QgVmlzaXRvcnM",
+                    "grantedToV2": {
+                        "siteGroup": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors",
+                            "id": "4",
+                            "loginName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Visitors"
+                        }
+                    },
+                    "inheritedFrom": {}
+                },
+                {
+                    "id": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "roles": [
+                        "owner"
+                    ],
+                    "shareId": "Yzowby5jfGZlZGVyYXRlZGRpcmVjdG9yeWNsYWltcHJvdmlkZXJ8MTM2MjU0Y2EtOTY4NS00MWI2LWFhZDktZDYxZWY2NmMyYjQ1X28",
+                    "grantedToV2": {
+                        "group": {
+                            "@odata.type": "#microsoft.graph.sharePointIdentity",
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        },
+                        "siteUser": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "6",
+                            "loginName": "c:0o.c|federateddirectoryclaimprovider|136254ca-9685-41b6-aad9-d61ef66c2b45_o"
+                        }
+                    },
+                    "grantedTo": {
+                        "user": {
+                            "displayName": "Sharepoint-Bedrock-Test Owners",
+                            "email": "Sharepoint-Bedrock-Test@HumCodeTechnologies143.onmicrosoft.com",
+                            "id": "136254ca-9685-41b6-aad9-d61ef66c2b45"
+                        }
+                    },
+                    "inheritedFrom": {}
+                }
+            ],
+            "inherited": false,
+            "parent_id": "8567a738-2d67-46f6-8e13-47a901c09281"
+        }
+    ]
+}
