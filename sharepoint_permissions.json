@@ -6,7 +6,8 @@
             "item_path": "/",
             "roles": [],
             "inherited": false,
-            "parent_id": null
+            "parent_id": null,
+            "group_members": {}
         }
     ],
     "lists": [
@@ -16,7 +17,8 @@
             "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/Lists/ListTest",
             "roles": [],
             "inherited": true,
-            "parent_id": null
+            "parent_id": null,
+            "group_members": {}
         },
         {
             "item_id": "af5ffed2-600f-41eb-9a86-5df2f31d44d5",
@@ -24,7 +26,8 @@
             "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/_catalogs/wte",
             "roles": [],
             "inherited": true,
-            "parent_id": null
+            "parent_id": null,
+            "group_members": {}
         },
         {
             "item_id": "6c144e72-aa42-49b5-839a-7268ba1c987f",
@@ -32,7 +35,8 @@
             "item_path": "https://humcodetechnologies143.sharepoint.com/sites/Sharepoint-Bedrock-Test/Shared%20Documents",
             "roles": [],
             "inherited": true,
-            "parent_id": null
+            "parent_id": null,
+            "group_members": {}
         }
     ],
     "documents": [],
@@ -133,7 +137,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "5376351c-7e6a-4038-a2ef-d0f9b82a4030"
+            "parent_id": "5376351c-7e6a-4038-a2ef-d0f9b82a4030",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "1",
@@ -231,7 +245,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "59268040-6ad7-4e71-9b95-3e4025727457"
+            "parent_id": "59268040-6ad7-4e71-9b95-3e4025727457",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "15",
@@ -329,7 +353,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "59268040-6ad7-4e71-9b95-3e4025727457"
+            "parent_id": "59268040-6ad7-4e71-9b95-3e4025727457",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "2",
@@ -427,7 +461,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "3",
@@ -525,7 +569,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "4",
@@ -623,7 +677,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "5",
@@ -721,7 +785,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "6",
@@ -819,7 +893,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "7",
@@ -917,7 +1001,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "8",
@@ -1015,7 +1109,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "9",
@@ -1113,7 +1217,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "10",
@@ -1211,7 +1325,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "11",
@@ -1309,7 +1433,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "12",
@@ -1407,7 +1541,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "13",
@@ -1505,7 +1649,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "14",
@@ -1603,7 +1757,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae"
+            "parent_id": "b01454c7-276c-4624-b89b-3ef7010cdeae",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "16",
@@ -1701,7 +1865,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a"
+            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "17",
@@ -1799,7 +1973,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a"
+            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "18",
@@ -1897,7 +2081,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a"
+            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "19",
@@ -1995,7 +2189,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a"
+            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "20",
@@ -2093,7 +2297,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a"
+            "parent_id": "cbaad7fe-d9a3-4f13-a903-4b846882397a",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "2",
@@ -2191,7 +2405,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "07930848-f825-437f-b7de-c7d6695e614c"
+            "parent_id": "07930848-f825-437f-b7de-c7d6695e614c",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "4",
@@ -2289,7 +2513,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "07930848-f825-437f-b7de-c7d6695e614c"
+            "parent_id": "07930848-f825-437f-b7de-c7d6695e614c",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "1",
@@ -2387,7 +2621,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "07930848-f825-437f-b7de-c7d6695e614c"
+            "parent_id": "07930848-f825-437f-b7de-c7d6695e614c",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "3",
@@ -2485,7 +2729,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "efa6a973-badf-4512-93b8-8675e709ae8c"
+            "parent_id": "efa6a973-badf-4512-93b8-8675e709ae8c",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         },
         {
             "item_id": "5",
@@ -2583,7 +2837,17 @@
                 }
             ],
             "inherited": false,
-            "parent_id": "8567a738-2d67-46f6-8e13-47a901c09281"
+            "parent_id": "8567a738-2d67-46f6-8e13-47a901c09281",
+            "group_members": {
+                "136254ca-9685-41b6-aad9-d61ef66c2b45": [
+                    {
+                        "id": "22d4878b-3a26-473d-ba52-8819c8fd8e50",
+                        "display_name": "sra",
+                        "user_principal_name": "sra@humcode.com",
+                        "email": null
+                    }
+                ]
+            }
         }
     ]
 }
